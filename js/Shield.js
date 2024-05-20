@@ -31,20 +31,23 @@ class Shield {
 
 Shield.prototype.bannerTypes = [
 	"None",
-	"Arterial",
 	"North",
 	"East",
 	"South",
 	"West",
 	"Jct",
+	"Junction",
 	"Begin",
 	"End",
 	"Spur",
 	"Alt",
+	"Alternate",
 	"Truck",
 	"Trunk",
 	"Bus",
+	"Business",
 	"Byp",
+	"Bypass",
 	"Loop",
 	"Express",
 	"Local",
@@ -54,7 +57,8 @@ Shield.prototype.bannerTypes = [
 	"Toll",
 	"City",
 	"Conn",
-	"To"
+	"To",
+	"to"
 ];
 Shield.prototype.bannerPositions = ["Above", "Right", "Left"];
 Shield.prototype.types = {
